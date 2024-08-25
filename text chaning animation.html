@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta vcharset="utf-8">
+<meta name="viewport">
+<content="width=device-width, initial-scale=1.0">
+	<title>text changing animation</title>
+	<style>
+	body
+	{
+		background: aqua;
+	}
+	h1
+	{
+		display: flex;
+		justify-content: center;
+		color: white;
+	}
+	span::before
+	{
+		content:"for new updates";
+		animation:animate infinite 6s;
+		padding-left:10px;
+	}
+	@keyframes animate
+	{
+		0%
+		{
+		content:"mr_d_codes";
+		}
+		50%
+		{
+		content:"FOR NEW UPDATES";
+		}
+		75%
+		{
+		content:"mr_d_codes";
+		}
+	}
+	</style>
+</head>
+<body>
+<h1>
+FOLLOW
+<span>
+</span>
+</h1>
+</body>
+</html>
